@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Javascript">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="coding, tutorials, Javascript, js, html, css">
+	<meta name="author" content="Ossama Allaoui">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<meta property="og:image" content="https://www.pluralsight.com/etc/clientlibs/pluralsight/main/images/resource-center/resource-center-default.jpg" />
+	<meta name="twitter:image" content="https://www.pluralsight.com/etc/clientlibs/pluralsight/main/images/resource-center/resource-center-default.jpg" />
+	<meta name="robots" content="index, follow">
+	<meta name="content-type" content="Page" />
+	<meta name="categories" content="page" />
+	<meta name="cludo:category" content="page" />
+	<link rel="shortcut icon"  href="img/icon.png" color="#e71585">
+	<title>Javascript</title>
+	
+
+</head>
+<body>
+		<!-- navbar -->
+			<header class="header">
+					<nav class="navbar">
+						<div class="himg">
+								<a href="index.html">
+									<img src="img/header2.png" class="navimg" alt="Javascript logo">
+								</a>
+						</div>
+							<ul>
+								<li><a href="#" class="active-button">TRY JAVASCRIPT</a></li>
+								<li><a href="variables.html">Learn</a></li>
+								<li><a href="../resources.html">Resources</a></li>
+								<li><a href="about.html">About</a></li>
+							</ul>
+					</nav>
+			</header>
+
+
+			<!-- start body -->
+
+				<div class="Learn">
+						<div class="l1">
+							<h5>STRINGS</h5>
+							<h5>NUMBERS</h5>
+							<h5>BOOLEANS</h5>
+							<h5>OPERATORS</h5>
+							<h5>VARIABLES</h5>
+							<h5>FUNCTIONS</h5>
+							<h5>CONDITIONALS</h5>
+							<h5>ARRAYS</h5>
+							<h5>OBJECTS</h5>
+						</div>
+						<div class="l1">
+							<h2>Variables</h2>
+							<p><span>Variables</span> are named values and can store any type of JavaScript value.</p>
+							<p>Here’s how to declare a variable:</p>
+							<table>
+								<tr>EXAMPLE</tr>
+								<tr>var x = 100;</tr>
+							</table>
+							<p>And here’s what’s happening in the example above:</p>
+							<ul>
+								<li>var is the keyword that tells JavaScript you’re declaring a variable.</li>
+								<li>x is the name of that variable.</li>
+								<li>= is the operator that tells JavaScript a value is coming up next.</li>
+								<li>100 is the value for the variable to store.</li>
+							</ul>
+
+							<h4>Using variables</h4>
+							<p>After you declare a variable, you can reference it by name elsewhere in your code.</p>
+
+							<table>
+								<tr>EXAMPLE</tr>
+								<tr>var x = 100;<br>
+								x + 102;</tr>
+								<tr><h6>OUTPUT</h6></tr>
+								<tr>202</tr>
+							</table>
+
+							<p>You can even use a variable when declaring other variables.</p>
+							<table>
+								<tr>EXAMPLE</tr>
+								<tr>var x = 100;<br>
+								var y = x + 102;<br>
+								y;</tr>
+								<tr><h6>OUTPUT</h6></tr>
+								<tr>202</tr>
+							</table>
+
+							<h4>Reassigning variables</h4>
+							<p>You can give an existing variable a new value at any point after it’s declared.</p>
+
+							<table>
+								<tr>EXAMPLE</tr>
+								<tr>var weather = "rainy";<br>
+								​weather = "sunny";<br>
+								weather;
+								</tr>
+								<tr><h6>OUTPUT</h6></tr>
+								<tr>"sunny"</tr>
+							</table>
+
+								<h4>Naming variables</h4>
+							<p>Variable names are pretty flexible as long as you follow a few rules:</p>
+
+							<ul>
+								<li>Start them with a letter, underscore _, or dollar sign $.</li>
+								<li>After the first letter, you can use numbers, as well as letters, underscores, or dollar signs.</li>
+								<li>Don’t use any of JavaScript’s reserved keywords.</li>
+							</ul>
+
+							<p>With that in mind, here are valid variable names:</p>
+
+							<table>
+								<tr>EXAMPLE</tr>
+								<tr>var camelCase = "lowercase word, then uppercase";<br>
+								var dinner2Go = "pizza";<br>
+								var I_AM_HUNGRY = true;<br>
+								var _Hello_ = "what a nice greeting"<br>
+								var $_$ = "money eyes";
+								</tr>
+							</table>
+
+							<p>And here are some invalid variable names — try to spot what’s wrong with each of them:</p>
+
+							<table>
+								<tr>EXAMPLE</tr>
+								<tr>var total% = 78;<br>
+									var 2fast2catch = "bold claim";<br>
+									var function = false;<br>
+									var class = "easy";<br>
+								</tr>
+							</table>
+
+							<p>Variable names are case-sensitive, so myVar, MyVar, and myvar are all different variables. But generally, it’s a good practice to avoid naming variables so similarly.</p>
+						</div>
+				</div>
+	<!-- start footer -->
+			<footer class="footer">
+				<div class="f1">
+					<img src="img/header2.png" class="fimg">
+					<p>&copy 2016 - 2019 JavaScript.com</p>
+				</div>
+				<ul>
+					<li><a href="#">Learn</a></li>
+					<li>/</li>
+					<li><a href="#">Resources</a></li>
+					<li>/</li>
+					<li><a href="#">About</a></li>		
+					
+				</ul>
+			</footer>
+
+		<!-- end footer -->
+</body>
+</html>
